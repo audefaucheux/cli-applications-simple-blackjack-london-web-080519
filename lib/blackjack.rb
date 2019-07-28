@@ -39,7 +39,6 @@ end
 def hit?(adverse_card_total)
   # code hit? here
   prompt_user
-  get_user_input
   sum = adverse_card_total
 
   if get_user_input == "s"
