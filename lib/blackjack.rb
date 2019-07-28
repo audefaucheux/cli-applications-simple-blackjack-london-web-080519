@@ -40,11 +40,13 @@ def hit?(adverse_card_total)
   prompt_user
   get_user_input
 
-#  if get_user_input == "h"
-#    deal_card
-#s  end
-
-  return adverse_card_total# + deal_card
+  if get_user_input == "s"
+    return adverse_card_total
+  elsif get_user_input == "h"      
+    deal_card
+    return adverse_card_total + deal_card
+  else "Please enter a valid command"
+  end
 end
 
 def invalid_command
