@@ -42,10 +42,9 @@ def hit?(adverse_card_total)
 
   if get_user_input == "h"
     deal_card
-    sum = deal_card + adverse_card_total
   end
-
-  return sum
+  
+  return adverse_card_total + deal_card
 end
 
 def invalid_command
