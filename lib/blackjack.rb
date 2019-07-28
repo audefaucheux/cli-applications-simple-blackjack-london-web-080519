@@ -44,7 +44,7 @@ def hit?(adverse_card_total)
     deal_card
     sum = deal_card + adverse_card_total
   end
-  
+
   return sum
 end
 
