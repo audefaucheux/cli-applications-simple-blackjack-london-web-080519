@@ -52,8 +52,6 @@ def hit?(adverse_card_total)
     #get_user_input
     puts "Please enter a valid command"
   end
-
-  sum
 end
 
 def invalid_command
