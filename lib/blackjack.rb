@@ -41,13 +41,12 @@ def hit?(adverse_card_total)
   sum = adverse_card_total
   prompt_user
   input = get_user_input
-  deal_card
 
   if input == "s"
     return sum
   elsif input == "h"
-    deal_card
-    sum += deal_card
+    new_card = deal_card
+    sum += new_card
     return sum
   else
     #get_user_input
