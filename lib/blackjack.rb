@@ -44,7 +44,7 @@ def hit?(adverse_card_total)
     deal_card
   end
 
-  return adverse_card_total + deal_card
+  return adverse_card_total# + deal_card
 end
 
 def invalid_command
