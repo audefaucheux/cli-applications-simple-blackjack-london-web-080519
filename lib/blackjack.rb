@@ -39,7 +39,7 @@ def hit?(adverse_card_total)
   # code hit? here
   prompt_user
   get_user_input
-  return "s"
+  return " "
 end
 
 def invalid_command
