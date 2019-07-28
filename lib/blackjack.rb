@@ -43,7 +43,7 @@ def hit?(adverse_card_total)
   input = get_user_input
 
   if input == "s"
-
+    sum
   elsif input == "h"
     deal_card
     sum += deal_card
