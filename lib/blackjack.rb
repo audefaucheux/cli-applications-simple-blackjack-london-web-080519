@@ -46,7 +46,7 @@ def hit?(adverse_card_total)
     else
       puts "Please enter a valid command"
       prompt_user
-    end    
+    end
 end
 
 def invalid_command
