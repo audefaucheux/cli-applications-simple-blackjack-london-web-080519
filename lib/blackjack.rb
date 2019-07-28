@@ -35,7 +35,7 @@ def initial_round
   return sum
 end
 
-def hit?#(adverse_card_total)
+def hit?(adverse_card_total)
   # code hit? here
   prompt_user
   get_user_input
