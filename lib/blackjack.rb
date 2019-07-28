@@ -43,7 +43,7 @@ def hit?(adverse_card_total)
   sum = adverse_card_total
 
   if get_user_input == "s"
-    puts get_user_input
+
   elsif get_user_input == "h"
     #get_user_input
     deal_card
@@ -53,7 +53,7 @@ def hit?(adverse_card_total)
     puts "Please enter a valid command"
   end
 
-  return sum
+  sum
 end
 
 def invalid_command
