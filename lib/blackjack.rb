@@ -50,6 +50,7 @@ def hit?(adverse_card_total)
   else
     #get_user_input
     puts "Please enter a valid command"
+    prompt_user
   end
   return sum
 end
