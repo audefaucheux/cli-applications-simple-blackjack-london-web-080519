@@ -43,7 +43,7 @@ def hit?(adverse_card_total)
   if get_user_input == "h"
     deal_card
   end
-  
+
   return adverse_card_total + deal_card
 end
 
