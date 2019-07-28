@@ -37,7 +37,7 @@ end
 
 def hit?(adverse_card_total)
   # code hit? here
-  puts prompt_user
+  prompt_user
   puts get_user_input
   sum = adverse_card_total
 
