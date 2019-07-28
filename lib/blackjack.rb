@@ -40,9 +40,9 @@ def hit?(adverse_card_total)
   prompt_user
   get_user_input
 
-  if get_user_input == "h"
-    deal_card
-  end
+#  if get_user_input == "h"
+#    deal_card
+#s  end
 
   return adverse_card_total# + deal_card
 end
