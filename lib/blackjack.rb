@@ -41,12 +41,13 @@ def hit?(adverse_card_total)
   get_user_input
 
   if get_user_input == "s"
-    return adverse_card_total
+    return get_user_input
   elsif get_user_input == "h"
     deal_card
     return adverse_card_total + deal_card
-  else "Please enter a valid command"
+  else return "Please enter a valid command"
   end
+  
 end
 
 def invalid_command
